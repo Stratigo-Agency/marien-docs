@@ -7,7 +7,7 @@ site_url: https://docs.marien.co.id/
 
 # The pencil on every page opens that page in GitHub's editor — that is how the team edits.
 repo_url: https://github.com/Stratigo-Agency/marien-docs
-repo_name: paskall-docs
+repo_name: marien-docs
 edit_uri: edit/main/docs/
 
 theme:
