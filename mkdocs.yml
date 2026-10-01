@@ -6,7 +6,7 @@ site_description: Guides for running screens on Marien.
 site_url: https://docs.marien.co.id/
 
 # The pencil on every page opens that page in GitHub's editor — that is how the team edits.
-repo_url: https://github.com/brebribre/paskall-docs
+repo_url: https://github.com/Stratigo-Agency/paskall-docs
 repo_name: paskall-docs
 edit_uri: edit/main/docs/
 
