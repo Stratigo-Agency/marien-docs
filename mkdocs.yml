@@ -1,5 +1,6 @@
 # Marien Docs — built and published by .github/workflows/deploy.yml on every push to main.
-# To add a page: put a .md file in docs/ and list it under `nav` below.
+# To add a page: put a .md file in docs/ and list it under `nav` below. Every page has an
+# Indonesian twin next to it with `.id` before `.md` (setting-up-your-device.id.md).
 
 site_name: Marien Docs
 site_description: Guides for running screens on Marien.
@@ -51,6 +52,29 @@ markdown_extensions:
 
 plugins:
   - search
+  # English is the default (docs.marien.co.id/); Indonesian lives under /id/. Pages are
+  # paired by file name: page.md is English, page.id.md is its Indonesian twin. Images are
+  # shared. The language switcher in the header is added by the plugin.
+  - i18n:
+      docs_structure: suffix
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: id
+          name: Bahasa Indonesia
+          build: true
+          nav_translations:
+            Home: Beranda
+            Set Up Your Device: Siapkan Perangkat
+            Connect a Screen: Hubungkan Layar
+            Create a Playlist: Buat Playlist
+            Create a Campaign: Buat Campaign
+            Player Releases: Versi Player
+            Device Owner over Wi-Fi: Device Owner lewat Wi-Fi
 
 extra_css:
   - stylesheets/extra.css
