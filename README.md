@@ -28,11 +28,15 @@ Pages are Markdown. The few things worth knowing:
 
 - A link to another guide: `[Connecting a Screen](connecting-a-screen.md)`.
 
+## Two languages
+
+The site is in English (`docs.marien.co.id/`) and Indonesian (`docs.marien.co.id/id/`); readers switch with the language icon in the header. Every page is a pair of files: `creating-a-campaign.md` is English, `creating-a-campaign.id.md` is its Indonesian twin. When you change one, change the other. Indonesian copy uses "kamu", never "Anda", and keeps button names exactly as they appear in Marien CMS (which is in English), e.g. klik **Connect a screen**.
+
 ## Adding a page
 
-1. Add a new `.md` file in `docs/` (all lowercase, hyphens for spaces, e.g. `power-schedules.md`).
-2. Add it to the `nav` list in `mkdocs.yml` so it appears in the sidebar.
-3. Add a row for it on `docs/index.md`.
+1. Add a new `.md` file in `docs/` (all lowercase, hyphens for spaces, e.g. `power-schedules.md`) and its Indonesian twin `power-schedules.id.md`.
+2. Add it to the `nav` list in `mkdocs.yml` so it appears in the sidebar, and its Indonesian title under `nav_translations`.
+3. Add a row for it on `docs/index.md` and `docs/index.id.md`.
 
 ## Adding an image
 
