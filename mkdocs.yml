@@ -35,7 +35,11 @@ nav:
   - Set Up Your Device: setting-up-your-device.md
   - Connect a Screen: connecting-a-screen.md
   - Create a Playlist: creating-a-playlist.md
+  - Design a Scene: designing-a-scene.md
   - Create a Campaign: creating-a-campaign.md
+  - Live Control: live-control.md
+  - Add a Sub-account: adding-a-sub-account.md
+  - How Reviews Work: how-reviews-work.md
   - Player Releases: player-releases.md
   - Device Owner over Wi-Fi: remote-device-owner-setup.md
 
@@ -72,7 +76,11 @@ plugins:
             Set Up Your Device: Siapkan Perangkat
             Connect a Screen: Hubungkan Layar
             Create a Playlist: Buat Playlist
+            Design a Scene: Rancang Scene
             Create a Campaign: Buat Campaign
+            Live Control: Live Control
+            Add a Sub-account: Tambah Sub-account
+            How Reviews Work: Cara Kerja Review
             Player Releases: Versi Player
             Device Owner over Wi-Fi: Device Owner lewat Wi-Fi
 
