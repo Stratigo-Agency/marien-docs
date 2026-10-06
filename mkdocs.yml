@@ -37,6 +37,7 @@ nav:
   - Create a Playlist: creating-a-playlist.md
   - Design a Scene: designing-a-scene.md
   - Create a Campaign: creating-a-campaign.md
+  - Live Control: live-control.md
   - Player Releases: player-releases.md
   - Device Owner over Wi-Fi: remote-device-owner-setup.md
 
@@ -75,6 +76,7 @@ plugins:
             Create a Playlist: Buat Playlist
             Design a Scene: Rancang Scene
             Create a Campaign: Buat Campaign
+            Live Control: Live Control
             Player Releases: Versi Player
             Device Owner over Wi-Fi: Device Owner lewat Wi-Fi
 
