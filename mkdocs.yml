@@ -35,6 +35,7 @@ nav:
   - Set Up Your Device: setting-up-your-device.md
   - Connect a Screen: connecting-a-screen.md
   - Create a Playlist: creating-a-playlist.md
+  - Design a Scene: designing-a-scene.md
   - Create a Campaign: creating-a-campaign.md
   - Player Releases: player-releases.md
   - Device Owner over Wi-Fi: remote-device-owner-setup.md
@@ -72,6 +73,7 @@ plugins:
             Set Up Your Device: Siapkan Perangkat
             Connect a Screen: Hubungkan Layar
             Create a Playlist: Buat Playlist
+            Design a Scene: Rancang Scene
             Create a Campaign: Buat Campaign
             Player Releases: Versi Player
             Device Owner over Wi-Fi: Device Owner lewat Wi-Fi
