@@ -46,4 +46,4 @@ Click the three dots at the end of their row.
 - **Delete user:** they lose access straight away. The media and playlists they created stay in your account.
 
 !!! note
-    A sub-account only sees the screens you gave them, and they can't see **User management**. When they change something that would be shown on a screen, you approve it first. Everything else they do is saved right away.
+    A sub-account only sees the screens you gave them, and they can't see **User management**. When they change something that would be shown on a screen, you approve it first (see [How Reviews Work](how-reviews-work.md)). Everything else they do is saved right away.

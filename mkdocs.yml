@@ -39,6 +39,7 @@ nav:
   - Create a Campaign: creating-a-campaign.md
   - Live Control: live-control.md
   - Add a Sub-account: adding-a-sub-account.md
+  - How Reviews Work: how-reviews-work.md
   - Player Releases: player-releases.md
   - Device Owner over Wi-Fi: remote-device-owner-setup.md
 
@@ -79,6 +80,7 @@ plugins:
             Create a Campaign: Buat Campaign
             Live Control: Live Control
             Add a Sub-account: Tambah Sub-account
+            How Reviews Work: Cara Kerja Review
             Player Releases: Versi Player
             Device Owner over Wi-Fi: Device Owner lewat Wi-Fi
 

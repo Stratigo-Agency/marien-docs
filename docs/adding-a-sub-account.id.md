@@ -46,4 +46,4 @@ Klik tiga titik di ujung barisnya.
 - **Delete user:** akses mereka langsung dicabut. Media dan playlist yang pernah mereka buat tetap ada di akunmu.
 
 !!! note
-    Sub-account hanya melihat layar yang kamu berikan, dan mereka tidak bisa membuka **User management**. Kalau mereka mengubah sesuatu yang akan tampil di layar, kamu yang menyetujuinya lebih dulu. Hal-hal lain langsung tersimpan.
+    Sub-account hanya melihat layar yang kamu berikan, dan mereka tidak bisa membuka **User management**. Kalau mereka mengubah sesuatu yang akan tampil di layar, kamu yang menyetujuinya lebih dulu (lihat [Cara Kerja Review](how-reviews-work.md)). Hal-hal lain langsung tersimpan.
