@@ -38,6 +38,7 @@ nav:
   - Design a Scene: designing-a-scene.md
   - Create a Campaign: creating-a-campaign.md
   - Live Control: live-control.md
+  - Add a Sub-account: adding-a-sub-account.md
   - Player Releases: player-releases.md
   - Device Owner over Wi-Fi: remote-device-owner-setup.md
 
@@ -77,6 +78,7 @@ plugins:
             Design a Scene: Rancang Scene
             Create a Campaign: Buat Campaign
             Live Control: Live Control
+            Add a Sub-account: Tambah Sub-account
             Player Releases: Versi Player
             Device Owner over Wi-Fi: Device Owner lewat Wi-Fi
 
