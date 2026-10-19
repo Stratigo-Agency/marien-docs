@@ -46,9 +46,11 @@ You can change the **Size**, make the text **B**old, align it left, centre or ri
 
 ![A line of text with a dark box behind it](images/scene/05-text.png)
 
-## Add the weather
+## Add the weather or a clock
 
-**6.** Click **Apps**, then **Weather**. Leave **Detect from device** on and the screen shows the weather of the place where it stands. Or switch it off and type a city. Type the name to show on screen, then click **Add to scene**.
+**6.** Click **Apps**, then **Weather**. Leave **Detect from device** on and the screen shows the weather of the place where it stands; the **Fallback place** is used if it can't tell. Or switch it off and type a city. Type the name to show on screen, pick a **Look**, then click **Add to scene**.
+
+**Clock**, next to it, adds the time: an analog face, digits, or a world clock.
 
 ![The Weather app settings](images/scene/06-apps.png)
 

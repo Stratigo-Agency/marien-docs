@@ -6,13 +6,13 @@ Hanya pemilik akun (owner) yang bisa menambahkan sub-account.
 
 ## Buat sub-account
 
-**1.** Di Marien CMS, klik **ikon roda gigi** di sebelah namamu di kiri bawah untuk membuka **Settings**.
+**1.** Di Marien CMS, klik **ikon roda gigi** di sebelah namamu di kiri bawah untuk membuka **Settings**. Halaman yang terbuka pertama adalah **Profile** milikmu.
 
 ![Halaman Settings](images/accounts/01-settings.png)
 
-**2.** Buka tab **User management**. Di sini kamu melihat semua orang yang bisa masuk ke akunmu. Klik **Add user**.
+**2.** Buka tab **Sub Accounts**. Di sini kamu melihat semua orang yang bisa masuk ke akunmu, beserta perannya dan layar yang bisa mereka jangkau. Klik **Add sub account**.
 
-![Tab User management](images/accounts/02-user-management.png)
+![Tab Sub Accounts](images/accounts/02-user-management.png)
 
 **3.** Isi formulirnya:
 
@@ -23,13 +23,13 @@ Hanya pemilik akun (owner) yang bisa menambahkan sub-account.
 
 Klik **Create**.
 
-![Formulir Add user yang sudah diisi](images/accounts/03-add-user.png)
+![Formulir Add sub account yang sudah diisi](images/accounts/03-add-user.png)
 
-**4.** Selesai. Orang barunya muncul di daftar, dengan label kecil yang menunjukkan berapa layar yang bisa dia jangkau.
+**4.** Selesai. Orang barunya muncul di daftar sebagai **Sub-Account**, beserta layar yang bisa dia jangkau. Klik layar-layar itu untuk mengubahnya.
 
 ![Sub-account baru di dalam daftar](images/accounts/04-user-added.png)
 
-**5.** Kirimkan username dan password-nya kepada mereka, beserta alamat untuk masuk: **app.marien.co.id**. Mereka bisa mengganti password lewat **Settings**, lalu **Reset password**.
+**5.** Kirimkan username dan password-nya kepada mereka, beserta alamat untuk masuk: **app.marien.co.id**. Mereka bisa mengganti password lewat **Settings**, **Profile**, lalu **Reset password**.
 
 !!! warning
     Berikan password dengan cara yang aman, bukan di grup chat yang bisa dibaca banyak orang. Minta mereka mengganti password-nya saat pertama kali masuk.
@@ -43,7 +43,7 @@ Klik tiga titik di ujung barisnya.
 - **Change screens:** pilih layar mana saja yang boleh mereka kelola.
 - **Reset password:** buatkan password baru (misalnya saat mereka lupa). Mereka akan keluar dari semua perangkat dan harus masuk lagi dengan password yang baru.
 - **Deactivate:** mereka tidak bisa masuk sampai kamu klik **Reactivate**. Tidak ada yang mereka buat yang terhapus.
-- **Delete user:** akses mereka langsung dicabut. Media dan playlist yang pernah mereka buat tetap ada di akunmu.
+- **Delete sub account:** akses mereka langsung dicabut. Media dan playlist yang pernah mereka buat tetap ada di akunmu.
 
 !!! note
-    Sub-account hanya melihat layar yang kamu berikan, dan mereka tidak bisa membuka **User management**. Kalau mereka mengubah sesuatu yang akan tampil di layar, kamu yang menyetujuinya lebih dulu (lihat [Cara Kerja Review](how-reviews-work.md)). Hal-hal lain langsung tersimpan.
+    Sub-account hanya melihat layar yang kamu berikan, dan mereka tidak bisa membuka **Sub Accounts**. Kalau mereka mengubah sesuatu yang akan tampil di layar, kamu yang menyetujuinya lebih dulu (lihat [Cara Kerja Review](how-reviews-work.md)). Hal-hal lain langsung tersimpan.

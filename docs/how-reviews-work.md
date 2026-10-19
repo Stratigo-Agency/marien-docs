@@ -25,7 +25,7 @@ Everything else is saved right away. For example uploading media, renaming somet
 
 ![The message after sending](images/review/02-sent.png)
 
-**3.** To follow it, open **Reviews** in the menu. Your change is listed as **Waiting**.
+**3.** To follow it, open **Reviews** in the menu. Your change is listed under **Waiting**.
 
 ![A sub-account's Reviews page](images/review/03-waiting.png)
 
@@ -38,13 +38,13 @@ Everything else is saved right away. For example uploading media, renaming somet
 
 ![The owner's Reviews page](images/review/04-owner-list.png)
 
-**5.** The page shows who sent it and which screens it touches. Use the **Before** and **After** tabs to compare. Click an item to preview it in the shape of the screen, and **Play** to watch the preview.
+**5.** The page shows who sent it and which screens it touches. Use the **Before** and **After** tabs to compare. Click an item to preview it in the shape of the screen.
 
 ![The "After" tab: what the screen will show](images/review/05-review-after.png)
 
 ![The "Before" tab: what the screen shows now](images/review/06-review-before.png)
 
-**6.** Click **Approve** if it looks good. The change is applied, and the screens pick it up within a few seconds. The review is marked **Approved**.
+**6.** Click **Approve** if it looks good, then **Approve** again to confirm. The change is applied, and the screens pick it up within a few seconds. The review is marked **Approved**.
 
 ![An approved review](images/review/07-approved.png)
 

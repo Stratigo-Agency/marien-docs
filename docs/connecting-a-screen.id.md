@@ -10,13 +10,13 @@ Layar harus sedang menampilkan kode pairing. Lihat [Siapkan Perangkat](setting-u
 
 ![Kode, nama, dan lokasi sudah diisi](images/pairing/03-code-typed.png)
 
-**3.** Pilih cara layar dipasang, lalu klik **Done**. Pilih opsi yang membuat bagian atas gambar berada di sisi atas layar. Kalau layar bisa mendeteksinya sendiri, pilihan ini sudah terisi otomatis.
+**3.** Tunggu beberapa detik sampai muncul tulisan bahwa layar sudah terhubung, lalu klik **Done**.
 
-![Memilih cara layar dipasang](images/pairing/05-connected-orientation.png)
+![Layar sudah terhubung](images/pairing/05-connected.png)
 
-**4.** Selesai. Supaya layar memutar sesuatu, [buat playlist](creating-a-playlist.md), lalu [buat campaign](creating-a-campaign.md) untuk menayangkannya di layar.
+**4.** Selesai. Kamu langsung dibawa ke halaman layar tersebut. Supaya layar memutar sesuatu, [buat playlist](creating-a-playlist.md), lalu [buat campaign](creating-a-campaign.md) untuk menayangkannya di layar.
 
 ![Halaman layar yang baru terhubung](images/pairing/06-screen-page.png)
 
 !!! tip
-    Kode berlaku selama 15 menit. Setelah itu layar menampilkan kode baru dengan sendirinya. Arah pemasangan layar bisa diubah nanti lewat **Settings** milik layar tersebut.
+    Kode berlaku selama 15 menit. Setelah itu layar menampilkan kode baru dengan sendirinya. Kalau layar dipasang tegak (portrait) atau terbalik, ubah di halaman layar lewat **Device Control**, lalu **Rotation**.

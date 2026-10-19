@@ -25,7 +25,7 @@ Selain itu langsung tersimpan. Misalnya mengunggah media, mengganti nama sesuatu
 
 ![Pesan setelah perubahan dikirim](images/review/02-sent.png)
 
-**3.** Untuk memantaunya, buka **Reviews** di menu. Perubahanmu tercatat dengan status **Waiting**.
+**3.** Untuk memantaunya, buka **Reviews** di menu. Perubahanmu tercatat di bagian **Waiting**.
 
 ![Halaman Reviews milik sub-account](images/review/03-waiting.png)
 
@@ -38,13 +38,13 @@ Selain itu langsung tersimpan. Misalnya mengunggah media, mengganti nama sesuatu
 
 ![Halaman Reviews milik owner](images/review/04-owner-list.png)
 
-**5.** Halamannya menunjukkan siapa yang mengirim dan layar mana yang terpengaruh. Pakai tab **Before** dan **After** untuk membandingkan. Klik sebuah item untuk melihat pratinjaunya dalam bentuk layar, dan klik **Play** untuk memutar pratinjau.
+**5.** Halamannya menunjukkan siapa yang mengirim dan layar mana yang terpengaruh. Pakai tab **Before** dan **After** untuk membandingkan. Klik sebuah item untuk melihat pratinjaunya dalam bentuk layar.
 
 ![Tab "After": apa yang akan tampil di layar](images/review/05-review-after.png)
 
 ![Tab "Before": apa yang tampil di layar sekarang](images/review/06-review-before.png)
 
-**6.** Klik **Approve** kalau sudah sesuai. Perubahan langsung diterapkan, dan layar akan mengikutinya dalam beberapa detik. Review-nya berstatus **Approved**.
+**6.** Klik **Approve** kalau sudah sesuai, lalu klik **Approve** sekali lagi untuk konfirmasi. Perubahan langsung diterapkan, dan layar akan mengikutinya dalam beberapa detik. Review-nya berstatus **Approved**.
 
 ![Review yang sudah disetujui](images/review/07-approved.png)
 

@@ -11,7 +11,7 @@ A campaign puts playlists on screens: all the time, or on a schedule.
 
 **2.** Choose what plays:
 
-- **Loop**: pick one playlist to play all the time.
+- **One playlist**: pick one playlist to play all day, every day.
 - **Schedule**: add a playlist per time slot (hours and days), with optional start and end dates.
 
 Click **Next**.
@@ -20,10 +20,13 @@ Click **Next**.
 
 ![A schedule: a playlist per time slot](images/campaign/03-schedule.png)
 
-**3.** Name the campaign, check it, and click **Deploy**, then **Deploy** again to confirm.
+**3.** Name the campaign, check it, and click **Release Campaign**, then **Release Campaign** again to confirm.
 
 ![The review step](images/campaign/04-review.png)
 
 **4.** Done. The screens start playing within a few seconds.
 
 To change it later, open it from **Campaigns**, edit, and click **Save & Apply**.
+
+!!! note "On a sub-account?"
+    The confirm box says **Send for review** instead. Nothing changes on the screens until the owner approves it. See [How Reviews Work](how-reviews-work.md).
