@@ -10,14 +10,14 @@ The screen must be showing a pairing code. See [Set Up Your Device](setting-up-y
 
 ![The code, name and location filled in](images/pairing/03-code-typed.png)
 
-**3.** Pick how the screen is mounted, then click **Done**. Choose the option that puts the top of the picture at the top of the panel. If the screen could tell by itself, it's already picked.
+**3.** Wait a few seconds until it says the screen is connected, then click **Done**.
 
-![Choosing how the screen is mounted](images/pairing/05-connected-orientation.png)
+![The screen is connected](images/pairing/05-connected.png)
 
-**4.** Done. To play something, [create a playlist](creating-a-playlist.md), then [create a campaign](creating-a-campaign.md) to put it on the screen.
+**4.** Done. You land on the screen's page. To play something, [create a playlist](creating-a-playlist.md), then [create a campaign](creating-a-campaign.md) to put it on the screen.
 
 ![The new screen's page](images/pairing/06-screen-page.png)
 
 !!! tip
-    Codes expire after 15 minutes; the screen shows a new one by itself. Orientation can be changed later under the screen's **Settings**.
+    Codes expire after 15 minutes; the screen shows a new one by itself. If the screen hangs in portrait or upside down, change it on the screen's page under **Device Control**, then **Rotation**.
 

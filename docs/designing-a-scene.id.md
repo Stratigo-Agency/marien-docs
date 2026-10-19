@@ -46,9 +46,11 @@ Kamu bisa mengubah **Size**, menebalkan tulisan dengan **B**, mengatur rata kiri
 
 ![Sebaris teks dengan kotak gelap di belakangnya](images/scene/05-text.png)
 
-## Tambahkan cuaca
+## Tambahkan cuaca atau jam
 
-**6.** Klik **Apps**, lalu **Weather**. Biarkan **Detect from device** menyala supaya layar menampilkan cuaca di tempat layar itu berada. Atau matikan, lalu ketik nama kota. Isi nama yang mau ditampilkan di layar, lalu klik **Add to scene**.
+**6.** Klik **Apps**, lalu **Weather**. Biarkan **Detect from device** menyala supaya layar menampilkan cuaca di tempat layar itu berada; kalau layar tidak bisa mendeteksinya, yang dipakai adalah **Fallback place**. Atau matikan, lalu ketik nama kota. Isi nama yang mau ditampilkan di layar, pilih **Look**, lalu klik **Add to scene**.
+
+**Clock**, di sebelahnya, menambahkan jam: jam jarum, angka digital, atau jam dunia.
 
 ![Pengaturan aplikasi Weather](images/scene/06-apps.png)
 
