@@ -13,7 +13,7 @@ Get a screen playing in four steps.
 - [Add a sub-account](adding-a-sub-account.md): give a teammate their own login for the screens you choose.
 - [How reviews work](how-reviews-work.md): approve a sub-account's changes before they reach the screens.
 
-Also: [Player releases](player-releases.md) · [Device Owner over Wi-Fi](remote-device-owner-setup.md)
+Also: [Player releases](player-releases.md) · [Device Owner over Wi-Fi](remote-device-owner-setup.md) · [Update the WebView](updating-webview.md)
 
 !!! tip "Spotted a mistake?"
     Click the pencil at the top of the page, edit, and press **Commit changes**. The site updates in about a minute.

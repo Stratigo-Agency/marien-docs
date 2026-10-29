@@ -42,6 +42,7 @@ nav:
   - How Reviews Work: how-reviews-work.md
   - Player Releases: player-releases.md
   - Device Owner over Wi-Fi: remote-device-owner-setup.md
+  - Update the WebView: updating-webview.md
 
 markdown_extensions:
   - admonition            # !!! note / !!! warning boxes
@@ -83,6 +84,7 @@ plugins:
             How Reviews Work: Cara Kerja Review
             Player Releases: Versi Player
             Device Owner over Wi-Fi: Device Owner lewat Wi-Fi
+            Update the WebView: Perbarui WebView
 
 extra_css:
   - stylesheets/extra.css
