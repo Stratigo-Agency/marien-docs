@@ -123,12 +123,46 @@ adb shell dumpsys webviewupdate
 
 Cari baris **Current WebView package**. Isinya nama dan versi, misalnya `com.google.android.webview, 91.0.4472.114`.
 
-- **111 atau lebih tinggi:** sudah aman. Kamu selesai, tidak perlu apa-apa lagi.
-- **Di bawah 111:** lanjut ke langkah berikutnya.
+Lihat juga baris **Valid package**. Baris-baris itu mendaftar semua WebView yang ada di layar, lengkap dengan versinya.
+
+- **Yang dipakai sudah 111 atau lebih tinggi:** sudah aman. Kamu selesai, tidak perlu apa-apa lagi.
+- **Yang dipakai di bawah 111, tapi di daftar sudah ada `com.google.android.webview` versi 111 ke atas:** WebView barunya sudah terpasang, hanya belum dipakai. Kamu tidak perlu mengunduh apa-apa. Langsung ke langkah 7.
+- **Tidak ada yang 111 ke atas di daftar:** lanjut ke langkah berikutnya.
+
+!!! example "Yang kami temukan di panel Lango 6760V100"
+    Layar memakai `com.android.webview` bawaan versi **91**, sementara `com.google.android.webview` versi **155** sudah terpasang tapi tidak dipakai. Panel seperti ini cukup mengikuti langkah 7.
 
 ### 5. Siapkan file WebView yang baru
 
-Pertama, tanyakan ke layar jenisnya supaya kamu mengunduh file yang cocok:
+**Untuk panel Lango 6760V100, atau layar dengan prosesor arm64 dan Android 10 ke atas**, pakai file siap pakai dari kami. Ini **Android System WebView 155.0.8059.46** buatan Google sendiri, diambil dari panel yang berjalan normal.
+
+**a. Unduh:** [base.apk di Google Drive](https://drive.google.com/file/d/1vRVMlytRjbcQTuFRljyqvoU2nWa7kao6/view?usp=sharing) (260 MB). Google bilang file sebesar ini tidak bisa dipindai virus. Itu normal. Pilih **Download anyway**.
+
+**b. Pastikan filenya utuh dan tidak diubah:**
+
+=== "Windows"
+
+    ```powershell
+    Get-FileHash "$HOME\Downloads\base.apk" -Algorithm SHA256
+    ```
+
+=== "Mac"
+
+    ```bash
+    shasum -a 256 ~/Downloads/base.apk
+    ```
+
+Hasilnya harus sama persis dengan ini:
+
+```text
+83fd3471d99b249cc53ded2d44e2d84885ac2dc11bec92c0360a0deda53cb84c
+```
+
+Kalau berbeda, jangan dipasang. Unduh ulang, atau tanya tim.
+
+**c. Lanjut ke langkah 6.** Nama filenya `base.apk`.
+
+**Untuk layar lain**, tanyakan dulu ke layar jenisnya supaya kamu mengunduh file yang cocok:
 
 ```bash
 adb shell getprop ro.product.cpu.abi
@@ -144,7 +178,7 @@ Lalu unduh **Android System WebView** yang cocok dengan kedua jawaban itu, dari 
 
 ### 6. Pasang WebView yang baru
 
-Ganti `NamaFile.apk` dengan nama file yang kamu unduh.
+Ganti `NamaFile.apk` dengan nama file yang kamu unduh (`base.apk` kalau kamu memakai file siap pakai dari kami).
 
 === "Windows"
 

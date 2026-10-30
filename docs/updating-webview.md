@@ -123,12 +123,46 @@ adb shell dumpsys webviewupdate
 
 Find the line **Current WebView package**. It shows a name and a version, like `com.google.android.webview, 91.0.4472.114`.
 
-- **111 or higher:** you are fine. You are done, nothing more to do.
-- **Below 111:** go on to the next step.
+Also look at the **Valid package** lines. They list every WebView on the screen, with its version.
+
+- **The one in use is 111 or higher:** you are fine. You are done, nothing more to do.
+- **The one in use is below 111, but a `com.google.android.webview` of 111 or higher is already in the list:** the new WebView is installed, just not in use. You do not need to download anything. Go straight to step 7.
+- **Nothing in the list is 111 or higher:** go on to the next step.
+
+!!! example "What we see on the Lango 6760V100 panels"
+    The screen uses the built-in `com.android.webview` **91**, while `com.google.android.webview` **155** is installed but not in use. These panels only need step 7.
 
 ### 5. Get the new WebView file
 
-First ask the screen what kind it is, so you download the right file:
+**For Lango 6760V100 panels, or any screen with an arm64 processor and Android 10 or newer**, use our ready file. It is Google's own **Android System WebView 155.0.8059.46**, taken from a working panel.
+
+**a. Download it:** [base.apk on Google Drive](https://drive.google.com/file/d/1vRVMlytRjbcQTuFRljyqvoU2nWa7kao6/view?usp=sharing) (260 MB). Google says it cannot scan files this big for viruses. That is normal. Choose **Download anyway**.
+
+**b. Check that the file is complete and untouched:**
+
+=== "Windows"
+
+    ```powershell
+    Get-FileHash "$HOME\Downloads\base.apk" -Algorithm SHA256
+    ```
+
+=== "Mac"
+
+    ```bash
+    shasum -a 256 ~/Downloads/base.apk
+    ```
+
+The result must be exactly this:
+
+```text
+83fd3471d99b249cc53ded2d44e2d84885ac2dc11bec92c0360a0deda53cb84c
+```
+
+If it is different, do not install it. Download it again, or ask the team.
+
+**c. Go to step 6.** The file is called `base.apk`.
+
+**For other screens**, first ask the screen what kind it is, so you download the right file:
 
 ```bash
 adb shell getprop ro.product.cpu.abi
@@ -144,7 +178,7 @@ Then download **Android System WebView** that matches both answers, from a sourc
 
 ### 6. Install the new WebView
 
-Replace `FileName.apk` with the name of the file you downloaded.
+Replace `FileName.apk` with the name of the file you downloaded (`base.apk` if you used our ready file).
 
 === "Windows"
 
