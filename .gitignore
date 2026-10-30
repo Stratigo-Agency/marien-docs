@@ -1,1 +1,12 @@
+# The built site (mkdocs build writes it; the deploy workflow rebuilds it from scratch)
 site/
+
+# Local Python environment: each person makes their own with `pip install -r requirements.txt`
+.venv/
+__pycache__/
+
+# macOS Finder files
+.DS_Store
+
+# Local preview config for Claude Code
+.claude/

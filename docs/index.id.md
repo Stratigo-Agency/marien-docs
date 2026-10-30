@@ -13,7 +13,7 @@ Tampilkan konten di layar dalam empat langkah.
 - [Tambah sub-account](adding-a-sub-account.md): beri rekan timmu login sendiri untuk layar yang kamu pilih.
 - [Cara kerja review](how-reviews-work.md): setujui dulu perubahan dari sub-account sebelum sampai ke layar.
 
-Lainnya: [Versi Player](player-releases.md) · [Device Owner lewat Wi-Fi](remote-device-owner-setup.md)
+Lainnya: [Versi Player](player-releases.md) · [Device Owner lewat Wi-Fi](remote-device-owner-setup.md) · [Perbarui WebView](updating-webview.md)
 
 !!! tip "Menemukan kesalahan?"
     Klik ikon pensil di bagian atas halaman, ubah tulisannya, lalu tekan **Commit changes**. Situs akan diperbarui dalam sekitar satu menit.
