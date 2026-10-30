@@ -54,6 +54,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.superfences
+  - pymdownx.tabbed:       # === "Windows" / === "Mac" tabs
+      alternate_style: true
 
 plugins:
   - search
