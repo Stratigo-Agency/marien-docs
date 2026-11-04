@@ -1,6 +1,6 @@
 # Live Control
 
-Live Control adalah remote untuk layar-layarmu. Pilih sebuah layar, ketuk salah satu scene-nya, dan scene itu langsung tampil di layar saat itu juga. Cocok untuk kabar mendadak, promo spesial, atau saat kamu ingin menunjukkan satu slide tertentu kepada pelanggan.
+Live Control adalah remote untuk layar-layarmu. Pilih sebuah layar, ketuk salah satu scene-nya, dan scene itu langsung tampil di layar saat itu juga. Cocok digunakan kamu ingin menunjukkan satu slide tertentu kepada pelanggan.
 
 Fitur ini bisa dipakai di layar mana pun yang sedang memutar playlist. Kalau sebuah layar belum punya playlist, lihat [Buat Campaign](creating-a-campaign.md).
 
